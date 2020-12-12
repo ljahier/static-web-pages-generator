@@ -1,0 +1,16 @@
+{
+  "name": "blog-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Lucas JAHIER <lucas.jahier@hey.com>",
+  "license": "ISC",
+  "dependencies": {
+    "markdown-to-html": "^0.0.0",
+    "showdown": "^1.9.1"
+  }
+}

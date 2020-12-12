@@ -1,0 +1,11 @@
+{
+    "author": {
+        "name": "Lucas JAHIER",
+        "twitter": {
+            "name": "@ljahier",
+            "url": "https://twitter.com/ljahier"
+        }
+    },
+    "builddir": "build",
+    "contentsdir": "contents"
+}
