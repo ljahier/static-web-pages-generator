@@ -1,16 +1,23 @@
 {
-  "name": "blog-generator",
+  "name": "generator",
   "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
+  "description": "CLI tool to generate static html page from markdown or nunjucks files",
+  "main": "bin/app.js",
   "scripts": {
-    "build": "node src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Lucas JAHIER <lucas.jahier@hey.com>",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
+    "cliparse": "^0.3.1",
+    "express": "^4.17.1",
     "markdown-to-html": "^0.0.0",
+    "nunjucks": "^3.2.2",
     "showdown": "^1.9.1"
+  },
+  "bin": {
+    "generator": "./bin/app.js"
   }
 }
